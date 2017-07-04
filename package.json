@@ -1,0 +1,27 @@
+{
+  "name": "lowbar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lowbar.js",
+  "scripts": {
+    "test": "mocha ./spec/",
+    "lint": "eslint --fix ./",
+    "posttest": "npm run lint",
+    "precommit": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kavi22/Lowbar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kavi22/Lowbar/issues"
+  },
+  "homepage": "https://github.com/Kavi22/Lowbar#readme",
+  "dependencies": {
+    "chai": "^4.0.2",
+    "husky": "^0.14.2"
+  }
+}
